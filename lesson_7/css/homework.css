@@ -1,0 +1,101 @@
+@import url(reset.css);
+
+
+.test-link span {
+    background-color: palevioletred;
+    padding: 25px 20px;
+    text-transform:uppercase;
+    font-weight: 500;
+    border-radius: 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.test-link{
+    margin: 100px;
+   
+}
+
+.test-link span, .test-link2 span{
+    display: block;
+}
+
+.test-link span:hover{
+    background-color: rgb(173, 20, 224);
+    padding: 35px 30px;
+    font-size: 25px;
+}
+
+.test-link span:active{
+ background-color: palevioletred;
+}
+
+.test-link span:visited{
+    background-color: gray;
+
+}
+
+.test-link2 span{
+    background-color:goldenrod;
+    padding: 25px 20px;
+    text-transform:uppercase;
+    font-weight: 500;
+    border-radius: 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    color: #fff;
+}
+
+.test-link2 span:hover{
+ background-color: yellow;
+}
+
+.test-link2 span:active{
+    background-color: goldenrod;
+}
+.test-link2 span:visited{
+    background-color: gray;
+}
+
+.test-link2:focus, .test-link:focus{
+    outline: 2px solid black;
+    border-radius: 20px;
+    outline-offset: 5px;
+}
+
+.test-text > * {
+margin-bottom: 25px;
+}
+
+.test-text p:first-child{
+    color: red;
+}
+
+.test-text p:last-child{
+margin-bottom: 0;
+}
+
+.test-text p:last-of-type{
+    color: green;
+}
+
+.test-text p:nth-child(5){
+    color:blueviolet
+}
+
+.test-text p:nth-child(odd){
+    text-decoration: underline blue;
+}
+
+.test-text p:nth-child(even){
+    text-decoration:underline double green;
+}
+
+.test-text p:nth-child(2n+1){
+    font-size: 25px;
+}
+
+.test-text p:not(:first-of-type){
+    text-transform: uppercase;
+}
