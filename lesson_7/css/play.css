@@ -1,0 +1,98 @@
+@import url(reset.css); 
+.game{
+    max-width: 1600px;
+    font-size: 0;
+}
+
+.line{
+   background-color: rgb(82, 193, 226);
+}
+
+.line1{
+        width: 50px;
+        height: 50px;
+}
+
+.line2{
+    width: 50px;
+    height: 50px;
+}
+
+.line1:hover + .line2, .line2:hover{
+    width: 100%;
+}
+
+.line3{
+    width:1550px;
+    height: 50px;
+	display: inline-block;
+  
+}
+
+.line3-1{
+    visibility: hidden;
+	width: 50px;
+	height: 50px;
+}
+
+.line2:hover ~ .line3-1, .line3-1:hover{
+    display: inline-block;
+    visibility: visible;
+}
+
+
+.line3-1:hover{
+    height: 100px;
+}
+
+.line4-1{
+display: inline-block;
+visibility: hidden;
+height: 50px;
+width: 50px;
+
+}
+
+
+.line3-1:hover ~ .line4 {
+	display: inline-block;
+	width: 1550px;
+	height: 50px;
+}
+
+.line3-1:hover ~ .line4-1,
+.line4-1:hover {
+	visibility: visible;
+    display: inline-block;
+}
+
+.line4-1:hover {
+	width: 100%;
+}
+.line5 {
+	width: 20px;
+	height: 300px;
+	visibility: hidden;
+}
+.line4-1:hover ~ .line5 {
+	/* display: block; */
+	visibility: visible;
+	height: 20px;
+}
+.line5:hover {
+	/* display: block; */
+	visibility: visible;
+	height: 300px;
+}
+.line6 {
+	/* display: none; */
+	visibility: hidden;
+	height: 20px;
+	width: 20px;
+	background-color: red;
+}
+.line5:hover ~ .line6,
+.line6:hover {
+	/* display: block; */
+	visibility: visible;
+}
