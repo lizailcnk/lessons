@@ -1,0 +1,250 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+
+.container{
+max-width: 1290px;
+margin: 0 auto;
+    
+}
+.header {
+    margin: 0 0 70px 0;
+}
+
+
+.header__nav {
+    padding: 15px 0;
+    background-color: #f8f8f8
+}
+.nav {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Proxima Nova Rg';
+    font-size: 16px;
+    line-height: 1.88;
+    color: #535353;
+
+}
+.nav__links{
+    margin: 0 336px 0 0;
+}
+.links-nav {
+
+}
+.links-nav__link {
+}
+.links-nav__link:not(:last-child) {
+    margin: 0 30px 0 0;
+}
+.contacts-nav {
+    display: flex;
+    flex-direction: row;
+}
+.contacts-nav__text {
+    margin: 0 30px 0 0 ;
+}
+.contactas-nav__links {
+}
+.links {
+}
+.links__link:not(:last-child) {
+margin: 0 10px 0 0;
+}
+.links__image {
+}
+.header__catalog {
+    padding: 25px 0;
+}
+.catalog {
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid #f8f8f8;
+}
+.catalog__logo {
+}
+.logo {
+    
+}
+.logo__icon{
+    
+    margin: 8px;
+}
+.logo__icon:last-of-type{
+    margin: 0 34px 0 0;
+}
+.catalog__link {
+    background-color: #ffbc57;
+    padding: 11px 20px;
+    font-family: 'Proxima Nova Lt';
+    font-size: 19px;
+    color: white;
+    line-height: 1.26;
+    border-radius: 8px;
+    margin: 0 30px 0 0;
+}
+
+.catalog__link::before{
+    content: "";
+    background: url("../img/icons/menu-catalog.png");
+    vertical-align: middle;
+    width: 25px;
+	height: 25px;
+	margin-right: 10px;
+}
+
+.catalog__form {
+    margin: 0 30px 0 0;
+}
+.form {
+   
+
+}
+.form__search {
+    border: 1px solid #b1b1b1;
+    width: 421px;
+    height: 50px;
+
+    
+   
+}
+.catalog__phones {
+}
+.phones {
+    display: flex;
+}
+.phones__icon {
+}
+.phones__icon--left {
+    margin: 0 10px 0 0;
+}
+.phones__time {
+    margin: 0 50px 0 0;
+    
+}
+.time-phones {
+}
+.time-phones__text {
+    font-size: 13px;
+    color: #535353;
+    line-height: 1.69;
+    font-family: 'Proxima Nova Rg';
+}
+.time-phones__nomber {
+    color: #2b2929;
+    font-size: 20px;
+    line-height: 1.4;
+    font-family: 'Proxima Nova Lt';
+}
+.phones__icon--right:not(:last-child) {
+    margin-right: 20px;
+}
+
+.header__propositions {
+    padding: 18px 0;
+}
+.proposition {
+    display: flex;
+}
+.proposition__left-links {
+    margin-right: 112px;
+}
+
+.proposition__left-links a:not(:last-child){
+    margin-right: 35px;
+
+}
+.proposition__link {
+    font-size: 19px;
+    line-height: 1.26;
+    font-family: 'Proxima Nova Lt';
+    color: #535353;
+}
+.proposition__link--sale::before {
+    content: "";
+    background: url("../img/icons/akcii.png");
+    vertical-align:text-top;
+    width: 24px;
+	height: 24px;
+	margin-right: 5px;
+    
+}
+.proposition__link--procent::before {
+    content: "";
+    background: url("../img/icons/sale.svg");
+    vertical-align:text-top;
+    width: 24px;
+	height: 24px;
+	margin-right: 5px;
+}
+
+.proposition__link--credit::before {
+    content: "";
+    background: url("../img/icons/credit.svg");
+    vertical-align:text-top;
+    width: 24px;
+	height: 24px;
+	margin-right: 5px; 
+}
+.proposition__right-links a:not(:last-child) {
+    margin-right: 35px;
+}
+
+.main {
+}
+.main-container{
+    background-color: #f8f8f8;
+}
+.main-container:not(:last-of-type){
+    margin: 0 0 70px 0;
+}
+
+.main-container__title {
+    font-size: 40px;
+    font-family: 'Proxima Nova Lt';
+    color: #2b2929;
+    line-height: 1.2;
+   margin: 0 0 40px 0;
+}
+
+
+
+.main-container__goods {
+    padding-top: 20px;
+    margin: 0 0 24px 0;
+   
+}
+
+.main-container__goods:not(:nth-of-type(5n)){
+    margin-right: 6px;
+}
+.block-goods {
+    background-color: #ffffff;
+    display: inline-block;
+    border-radius: 8px;
+    max-width: 250px;
+    
+}
+
+.main-container__goods--shadow{
+    box-shadow: -3px 4px 15px 0 rgba(0, 0, 0, 0.06);
+}
+
+
+
+.block-goods__link{
+    font-size: 20px;
+    line-height: 1.4;
+    color: #2b2929;
+    font-family: 'Proxima Nova Lt';
+    margin: 0 0 0 20px;
+    text-transform:capitalize;
+
+}
+.block-goods__img {
+   
+}
+
+.main-container__popular-goods{
+    padding: 20px;
+    
+}
